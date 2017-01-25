@@ -50,6 +50,7 @@ describe('Tasks Controller', function(){
       });
 
       it('should create a new task', function() {
+
         expect($('#list-0 li').length).toEqual(1);
       });
 
